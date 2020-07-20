@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-restful
+  profiles:
+    active: dev
+server:
+  port: 8090
+  servlet:
+    context-path: /test

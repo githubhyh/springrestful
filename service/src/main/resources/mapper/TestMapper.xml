@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.mapper.TestMapper">
+    <resultMap id="testResult" type="com.dm.domain.Test">
+        <result property="id" column="id"/>
+        <result property="remark" column="remark"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.dm.domain.Test">
+        insert into test
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="remark!=null and remark != ''">remark,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="remark != null and remark != ''">#{remark},</if>
+        </trim>
+    </insert>
+
+    <select id="find" parameterType="com.dm.domain.Test" resultMap="testResult">
+        select id, remark from test
+        <where>
+            <if test="id != null and id != 0">and id = #{id}</if>
+            <if test="remark != null and remark != ''">and remark = #{remark}</if>
+        </where>
+    </select>
+</mapper>

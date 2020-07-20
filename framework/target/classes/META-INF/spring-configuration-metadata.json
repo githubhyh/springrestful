@@ -1,0 +1,5173 @@
+{
+  "groups": [
+    {
+      "name": "java.mail",
+      "type": "com.dm.config.properties.JavaMailProperties",
+      "sourceType": "com.dm.config.properties.JavaMailProperties"
+    },
+    {
+      "name": "redis.custom.cluster",
+      "type": "com.dm.config.properties.RedisClusterProperties",
+      "sourceType": "com.dm.config.properties.RedisClusterProperties"
+    },
+    {
+      "name": "spring.custom.redis",
+      "type": "com.dm.config.properties.RedisSentinelProperties",
+      "sourceType": "com.dm.config.properties.RedisSentinelProperties"
+    },
+    {
+      "name": "spring.custom.redis.pool",
+      "type": "com.dm.config.properties.RedisSentinelProperties$Pool",
+      "sourceType": "com.dm.config.properties.RedisSentinelProperties",
+      "sourceMethod": "getPool()"
+    },
+    {
+      "name": "spring.custom.redis.sentinel",
+      "type": "com.dm.config.properties.RedisSentinelProperties$Sentinel",
+      "sourceType": "com.dm.config.properties.RedisSentinelProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis",
+      "type": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "sourceType": "com.dm.config.SpringSessionConfig",
+      "sourceMethod": "connectionFactory()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "java.mail.from",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.JavaMailProperties"
+    },
+    {
+      "name": "java.mail.hostname",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.JavaMailProperties"
+    },
+    {
+      "name": "java.mail.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.JavaMailProperties"
+    },
+    {
+      "name": "java.mail.protocol",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.JavaMailProperties"
+    },
+    {
+      "name": "java.mail.smtp-auth",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.JavaMailProperties",
+      "defaultValue": "true"
+    },
+    {
+      "name": "java.mail.username",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.JavaMailProperties"
+    },
+    {
+      "name": "java.mail.weight",
+      "type": "com.dm.common.pojo.Weight",
+      "sourceType": "com.dm.config.properties.JavaMailProperties"
+    },
+    {
+      "name": "spring.custom.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dm.config.properties.RedisSentinelProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.custom.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.RedisSentinelProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "spring.custom.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dm.config.properties.RedisSentinelProperties"
+    },
+    {
+      "name": "spring.custom.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dm.config.properties.RedisSentinelProperties",
+      "defaultValue": 6379
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.druid.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-exception-throw",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.keep-alive-between-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-max-use-count",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.datasource.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "spring.redis.cache.convert-pipeline-and-tx-results",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.cache.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.cache.eager-initialization",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.cache.share-native-connection",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.cache.validate-connection",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.convert-pipeline-and-tx-results",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.eager-initialization",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.share-native-connection",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.redis.validate-connection",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+    },
+    {
+      "name": "spring.datasource.druid.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.druid.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.client-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.client-resources",
+      "type": "io.lettuce.core.resource.ClientResources",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.host-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.shutdown-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.start-tls",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.use-ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.cache.verify-peer",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.client-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.client-resources",
+      "type": "io.lettuce.core.resource.ClientResources",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.host-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.shutdown-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.start-tls",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.use-ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "spring.redis.verify-peer",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "deprecated": true,
+      "deprecation": {}
+    }
+  ],
+  "hints": []
+}

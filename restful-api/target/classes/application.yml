@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-restful
+  profiles:
+    active: dev
+server:
+  port: 8090
+  servlet:
+    context-path: /test
+java:
+  mail:
+    protocol: smtp
+    hostname: 10.17.29.14
+    smtp-auth: true
+    from: hu.yuhao@byd.com
+    username: hu.yuhao@byd.com
+    password: kuvb@bs0ua
+    weight: 20.8KG
